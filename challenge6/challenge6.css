@@ -1,0 +1,102 @@
+      *{
+            padding: 0%;
+            margin: 0%;
+        }
+        body{
+            width: 1300px;
+            height: 109vh;
+            background-color: hsl(204, 43%, 93%);
+        }
+        .card{
+            border-radius: 20px;
+            width: 550px;
+            height: 400px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            box-shadow: 2px 8px 11px 7px rgb(0, 0, 0, 0.2);
+        }
+        .subone{
+            background-color: #fff;
+            height: 120px;
+            padding: 30px;
+        }
+        .subone h1{
+            font-size: 20px;
+            font-weight: 700px;
+            color: hsl(179, 62%, 43%);
+            margin-bottom: 20px;
+        }
+        .subone h2{
+            font-size: 18px;
+            font-weight: 500;
+            color: hsl(71, 73%, 54%);
+            margin-bottom: 10px;
+        }
+        .subone p{
+            font-size: 16px;
+            color:  hsl(218, 22%, 67%);
+        }
+        .group{
+            display: flex;
+            flex-direction: row;
+        }
+        .subtwo{
+            background-color:hsl(179, 62%, 43%) ;
+            display: flex;
+            flex-direction: column;
+            width: 220px;
+            height: 160px;
+            padding: 30px;
+        }
+        .subtwo h3{
+            color: rgb(240, 232, 232);
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        .subtwo h4{
+            color: rgb(240, 232, 232);
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .subtwo h4 sup span{
+            color: hsl(214, 15%, 73%);
+            font-size: 15px;
+        }
+        .subtwo p{
+            color: rgb(218, 214, 214);
+            margin: 10px 0px 25px 0px;
+        }
+        .subtwo button {
+            height: 50px;
+            color: #fff;
+            background-color: hsl(71, 73%, 54%);
+            border: none;
+            border-radius: 10px;
+            box-shadow: 1px 4px 8px 3px rgb(0, 0, 0, 0.08);
+        }
+        .subtwo button:hover{
+            transform: scale(1.1);
+            transition: .3s ease-in-out;
+            cursor: pointer;
+        }
+        .subthree{
+            background-color:hsl(179, 53%, 60%) ;
+            display: flex;
+            flex-direction: column;
+            width: 220px;
+            height: 160px;
+            padding: 30px;
+        }
+        .subthree h4{
+            color: rgb(243, 240, 240);
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom:15px ;
+        }
+        .subthree p{
+            color: rgb(231, 229, 229);
+            font-size: 15px;
+        }
